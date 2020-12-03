@@ -28,17 +28,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Cypress
 
-### Installation - Cypress Schematic (Removes Protractor and adds Cypress configured with TypeScript)
+### Installation - Cypress Schematic (Removes Protractor and adds Cypress configured with TypeScript). Read more about it on [npm](https://www.npmjs.com/package/@briebug/cypress-schematic)
 
-- ng add @briebug/cypress-schematic
-
-- Read more about it on [npm](https://www.npmjs.com/package/@briebug/cypress-schematic)
+- `ng add @briebug/cypress-schematic`
 
 ### Running
 
-- ng e2e
-- ng run {your-project-name}:cypress-open
-- ng run {your-project-name}:cypress-run
+- `ng e2e` | `ng run {your-project-name}:cypress-open` | `ng run {your-project-name}:cypress-run`
 
 ### Helpful Links
 
@@ -48,25 +44,23 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ### Installation
 
-- npx sb init
+- `npx sb init`
 
 ### Running
 
-- npm run storybook
+- `npm run storybook`
 
 ### Helpful Links
 
-- https://storybook.js.org/docs/angular/get-started/install
-
-- https://www.learnstorybook.com/
-
-- https://storybook.js.org/docs/angular/writing-stories/introduction
+- [Getting Started](https://storybook.js.org/docs/angular/get-started/install) | [Learn Storybook](https://www.learnstorybook.com/) | [Intro to Writing Stories](https://storybook.js.org/docs/angular/writing-stories/introduction)
 
 ## Version Control
 
-- https://medium.com/@brygrill/version-control-basics-with-github-and-vs-code-1c1906cadd33#:~:text=When%20you%20open%20a%20project,left%20corner%20of%20your%20window.&text=If%20you%20click%20on,branches%20that%20you%20can%20checkout.
+- [Version Control Basics with VS Code and GitHub](https://medium.com/@brygrill/version-control-basics-with-github-and-vs-code-1c1906cadd33#:~:text=When%20you%20open%20a%20project,left%20corner%20of%20your%20window.&text=If%20you%20click%20on,branches%20that%20you%20can%20checkout)
 
 ## Notes for 'steps taken' (will be using for gitbook etc.)
+
+- I used Todd Motto's [Component architecture recipes for Angulars reactive forms](https://ultimatecourses.com/blog/component-architecture-reactive-forms-angular) for this. Added [Cypress](https://www.cypress.io/) for e2e and [Storybook](https://storybook.js.org/docs/angular/get-started/introduction) for component design. Big thank you to the community out there. You are all awesome!
 
 ### Create page module (page modules === routed pages)
 
