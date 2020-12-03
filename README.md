@@ -46,5 +46,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Notes for 'steps taken' (will be using for gitbook etc.)
 
-- Create page module (page modules === routed pages)
-- Set up folder structure (CLI can do this too, but approach may help conceptualize design prior to making components etc.)
+### Create page module (page modules === routed pages)
+
+- ng g m pizza
+
+### Set up folder structure (CLI can do this too, but approach may help conceptualize design prior to making components etc.)
+
+- TODO: Show folder structure
