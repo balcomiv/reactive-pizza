@@ -40,4 +40,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - https://storybook.js.org/docs/angular/writing-stories/introduction
 
-## Test
+## Version Control
+
+- https://medium.com/@brygrill/version-control-basics-with-github-and-vs-code-1c1906cadd33#:~:text=When%20you%20open%20a%20project,left%20corner%20of%20your%20window.&text=If%20you%20click%20on,branches%20that%20you%20can%20checkout.
