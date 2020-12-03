@@ -34,4 +34,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Storybook Schematic
 
--
+- https://storybook.js.org/docs/angular/get-started/install
+
+- https://www.learnstorybook.com/
