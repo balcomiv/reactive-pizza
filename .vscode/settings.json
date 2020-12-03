@@ -1,0 +1,6 @@
+{
+    "gitlens.codeLens.enabled": false,
+    "gitlens.blame.highlight.enabled": true,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.advanced.blame.customArguments": []
+}
