@@ -62,6 +62,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - I used Todd Motto's [Component architecture recipes for Angulars reactive forms](https://ultimatecourses.com/blog/component-architecture-reactive-forms-angular) for this. Added [Cypress](https://www.cypress.io/) for e2e and [Storybook](https://storybook.js.org/docs/angular/get-started/introduction) for component design. Big thank you to the community out there. You are all awesome!
 
+## The
+
 ## Create page module (page modules === routed pages)
 
 - ng g m pizza
@@ -69,3 +71,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Set up folder structure (CLI can do this too, but approach may help conceptualize design prior to making components etc.)
 
 - TODO: Show folder structure
+
+## Create UI/Presentational/View Components (good place to use Storybook)
+
+## Crate Container Component
