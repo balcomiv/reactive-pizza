@@ -80,12 +80,20 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - Pizza Name `ng g c pizza/components/pizza-name`
 
-- Pizza Selected
+- Pizza Selected `ng g c pizza/components/pizza-selected`
 
 - Pizza Button `ng g c pizza/components/pizza-button`
 
-- Pizza List
+- Pizza List `ng g c pizza/components/pizza-list`
 
-## Crate Container Component
+## Create Container Component
 
 - Pizza Creator (Note: this is the routed feature page container component)
+
+## Create Service(s)
+
+## Create Pipe(s)
+
+## Create Interfaces/Models
+
+## Create Validator. [Read more on custom validators](https://angular.io/api/forms/Validator)
