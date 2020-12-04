@@ -58,11 +58,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - [Version Control Basics with VS Code and GitHub](https://medium.com/@brygrill/version-control-basics-with-github-and-vs-code-1c1906cadd33#:~:text=When%20you%20open%20a%20project,left%20corner%20of%20your%20window.&text=If%20you%20click%20on,branches%20that%20you%20can%20checkout)
 
+- [Merging with command line](https://stackoverflow.com/questions/20101994/git-pull-from-master-into-the-development-branch)
+
 # Notes for 'steps taken' (will be using for gitbook etc.)
 
 - I used Todd Motto's [Component architecture recipes for Angulars reactive forms](https://ultimatecourses.com/blog/component-architecture-reactive-forms-angular) for this. Added [Cypress](https://www.cypress.io/) for e2e and [Storybook](https://storybook.js.org/docs/angular/get-started/introduction) for component design. Big thank you to the community out there. You are all awesome!
-
-## The
 
 ## Create page module (page modules === routed pages)
 
@@ -74,4 +74,18 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Create UI/Presentational/View Components (good place to use Storybook)
 
+- Pizza Form `ng g c pizza/components/pizza-form`
+
+- Toppings Selector
+
+- Pizza Name
+
+- Pizza Selected
+
+- Pizza Button
+
+- Pizza List
+
 ## Crate Container Component
+
+- Pizza Creator (Note: this is the routed feature page container component)
