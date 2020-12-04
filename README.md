@@ -82,7 +82,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - Pizza Selected
 
-- Pizza Button
+- Pizza Button `ng g c pizza/components/pizza-button`
 
 - Pizza List
 

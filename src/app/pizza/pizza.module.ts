@@ -1,9 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { PizzaFormComponent } from './components/pizza-form/pizza-form.component';
+import { PizzaButtonComponent } from './components/pizza-button/pizza-button.component';
 
 @NgModule({
-  declarations: [PizzaFormComponent],
+  declarations: [PizzaFormComponent, PizzaButtonComponent],
   imports: [CommonModule],
 })
 export class PizzaModule {}
