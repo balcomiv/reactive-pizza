@@ -78,7 +78,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - Toppings Selector `ng g c pizza/components/toppings-selector`
 
-- Pizza Name
+- Pizza Name `ng g c pizza/components/pizza-name`
 
 - Pizza Selected
 
