@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Pizza } from '../../interfaces/pizza';
+import { PizzaService } from '../../services/pizza/pizza.service';
 
 @Component({
   selector: 'app-pizza-creator',
   templateUrl: './pizza-creator.component.html',
-  styleUrls: ['./pizza-creator.component.scss']
+  styleUrls: ['./pizza-creator.component.scss'],
 })
-export class PizzaCreatorComponent implements OnInit {
+export class PizzaCreatorComponent {
+  pizza$ = this.pizzaService.select('pizzas');
+  toppings$ = this.pizzaService.select('toppings');
 
-  constructor() { }
+  constructor(private pizzaService: PizzaService) {}
 
-  ngOnInit(): void {
+  addPizza(event: Pizza): void {
+    this.pizzaService.addPizza(event);
   }
-
 }

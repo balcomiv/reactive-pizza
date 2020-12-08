@@ -105,8 +105,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Create Service(s)
 
+- Pizza Service `ng g s pizza/services/pizza --flat false`
+
 ## Create Pipe(s)
 
 ## Create Interfaces/Models
+
+- Pizza Interface `ng g i pizza/interfaces/pizza`
 
 ## Create Validator. [Read more on custom validators](https://angular.io/api/forms/Validator)
