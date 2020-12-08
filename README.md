@@ -22,9 +22,19 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Cypress](https://www.cypress.io/).
 
-## Further help
+## Further help (CLI)
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Todd Motto Tutorials
+
+### Tutorial used in this repo
+
+- [Component architecture recipes for Angular's reactive forms](https://ultimatecourses.com/blog/component-architecture-reactive-forms-angular)
+
+### Template driven version of component architecture
+
+- [Stateful and stateless components, the missing manual](https://ultimatecourses.com/blog/stateful-stateless-components)
 
 ## Cypress
 
@@ -89,6 +99,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Create Container Component
 
 - Pizza Creator (Note: this is the routed feature page container component)
+- `ng g c pizza/containers/pizza-creator`
+
+## Add Route
 
 ## Create Service(s)
 
