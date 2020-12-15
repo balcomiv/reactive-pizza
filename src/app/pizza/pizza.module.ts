@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 import { PizzaButtonComponent } from './components/pizza-button/pizza-button.component';
 import { PizzaFormComponent } from './components/pizza-form/pizza-form.component';
 import { PizzaListComponent } from './components/pizza-list/pizza-list.component';
@@ -19,7 +20,7 @@ import { PizzaService } from './services/pizza/pizza.service';
     PizzaListComponent,
     PizzaCreatorComponent,
   ],
-  imports: [CommonModule],
+  imports: [CommonModule, ReactiveFormsModule],
   providers: [PizzaService],
 })
 export class PizzaModule {}
