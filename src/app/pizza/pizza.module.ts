@@ -7,6 +7,7 @@ import { PizzaNameComponent } from './components/pizza-name/pizza-name.component
 import { PizzaSelectedComponent } from './components/pizza-selected/pizza-selected.component';
 import { ToppingsSelectorComponent } from './components/toppings-selector/toppings-selector.component';
 import { PizzaCreatorComponent } from './containers/pizza-creator/pizza-creator.component';
+import { PizzaService } from './services/pizza/pizza.service';
 
 @NgModule({
   declarations: [
@@ -19,5 +20,6 @@ import { PizzaCreatorComponent } from './containers/pizza-creator/pizza-creator.
     PizzaCreatorComponent,
   ],
   imports: [CommonModule],
+  providers: [PizzaService],
 })
 export class PizzaModule {}

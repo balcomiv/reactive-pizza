@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { distinctUntilChanged, pluck } from 'rxjs/operators';
 import { Pizza, Topping } from '../../interfaces/pizza';
-import { PizzaModule } from '../../pizza.module';
 
 export interface State {
   pizzas: Pizza[];
@@ -33,9 +32,7 @@ const state: State = {
   ],
 };
 
-@Injectable({
-  providedIn: PizzaModule,
-})
+@Injectable()
 export class PizzaService {
   private subject = new BehaviorSubject<State>(state);
   store = this.subject.asObservable().pipe(distinctUntilChanged());
