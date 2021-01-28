@@ -6,7 +6,7 @@
 
 ## Output(s)
 
-- add (Event of void)
+- add (EventEmitter of form.value)
 
 ## Public API
 
