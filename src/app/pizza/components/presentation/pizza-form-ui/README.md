@@ -8,6 +8,10 @@
 
 - add (EventEmitter of form.value)
 
+## Injected Items
+
+- FromBuilder
+
 ## Public API
 
 ### Properties
@@ -16,14 +20,14 @@
 
 ### Getter(s)
 
-- toppingsControl (FormArray)
+- toppingsControl = (): FormArray
 
 ### Method(s)
 
-- addToppings
+- addToppings = (Topping): void
 
-- removeToppings
+- removeToppings = (number): void
 
-- selectTopping
+- selectTopping = (Topping): void
 
-- onSubmit
+- onSubmit = (): void

@@ -1,8 +1,12 @@
-# Presentational Form
+# Presentational Pizza Button Component
 
 ## Input(s)
 
+- parent (FormGroup)
+
 ## Output(s)
+
+- add (EventEmitter of void)
 
 ## Public API
 
@@ -11,3 +15,5 @@
 ### Getter(s)
 
 ### Method(s)
+
+- onClick = (): void

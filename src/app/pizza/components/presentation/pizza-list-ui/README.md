@@ -1,8 +1,8 @@
-# Presentational Pizza Name Component
+# Presentational Pizza List Component
 
 ## Input(s)
 
-- parent (FormGroup)
+- pizzas (Pizza[])
 
 ## Output(s)
 
@@ -11,7 +11,5 @@
 ### Properties
 
 ### Getter(s)
-
-- invalid = (): void
 
 ### Method(s)

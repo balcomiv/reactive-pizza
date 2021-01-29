@@ -20,12 +20,12 @@
 
 ### Getter(s)
 
-- invalid (bool)
+- invalid = (): void
 
 ### Method(s)
 
-- exists (bool) (don't do fancy bitwise op like him... That doesn't help anybody or anything...)
+- exists = (Topping): bool
 
-- isActive (bool)
+- isActive = (Topping): bool
 
-- onSelect (void)
+- onSelect (Topping): void
